@@ -1,0 +1,37 @@
+.footer{
+  background-color: #c5bebe3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+  width: 240px;
+  padding: 20px;
+}
+
+.footer p{
+  margin: 40px 0;
+}
+
+.logo2{
+  width: 30px;
+  height: 20px;
+  padding: 0 10px;
+}
+
+.logo2:hover{
+ opacity: 0.5;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.copyright-text{
+  border-top: 1px solid #00000047;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 15px;
+}

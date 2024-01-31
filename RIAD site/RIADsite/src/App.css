@@ -1,0 +1,23 @@
+html{
+  font-family: 'Assistant', sans-serif;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #d2b5b538;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  width: 280px;
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
