@@ -33,9 +33,10 @@ function App() {
     <>
     <header>
       <Nav/>
+      <Head/>
     </header>
      <main className='main'>
-        <Head/>
+        
         <Email email='son adresse email '/>
         <Partenaire/>
         <Article linka={linkExperiences} titre={titreexperiences} article={articleexperiences} />

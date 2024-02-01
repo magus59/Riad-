@@ -4,7 +4,10 @@ html{
 
 body{
   padding: 0;
+  width: 280px;
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #d2b5b538;
   display: flex;
   justify-content: center;
@@ -12,7 +15,7 @@ body{
 }
 
 main{
-  width: 280px;
+  /* width: 280px; */
   background-color: #fff;
   min-height: 100vh;
   display: flex;
