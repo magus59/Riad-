@@ -9,10 +9,10 @@ import inLogo from './assets/images/linkedin.png';
 import gmailLogo from './assets/images/gmail.png';
 import facebookLogo from './assets/images/facebook.png';
 /**ajout par mohamed  */
-import Email from './components/email/email';
-import Experiences from './components/experiences/experiences';
-import Domaines from './components/domaines/domaines';
-
+import Email from './assets/components/email/email';
+import Experiences from './assets/components/experiences/experiences';
+import Domaines from './assets/components/domaines/domaines';
+import Icon from './components/icon/icon';
 function App() {
   const logosArray = [inLogo, gmailLogo, facebookLogo];
 
@@ -26,6 +26,7 @@ function App() {
         <Email email='son adresse email '/>
         <Experiences/>
         <Domaines />
+        <Icon/>
      </main>
      <Footer logos={logosArray}/>
     </>
