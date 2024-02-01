@@ -4,3 +4,17 @@
     border-radius: 20px;
     padding: 10px;
 }
+.deco{
+    width:6px;
+    height:60px;
+    background-color: rgb(219, 16, 46);
+    margin-right: 15px;
+} 
+.ensembleh1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+p{
+    text-align: justify;
+}
