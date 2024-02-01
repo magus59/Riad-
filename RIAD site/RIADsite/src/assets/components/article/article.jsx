@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, animateScroll as scroll } from "react-scroll";
 import './article.css' ;
 const Article = (props) => {
   return (
@@ -10,7 +11,16 @@ const Article = (props) => {
         <p className='para'>{props.article}</p>
         <div className='decoLink'>
           <div className='positionLink'>
-            <a className='link' href={props.link}> -> </a>
+          <Link
+          className='link'
+    activeClass="active"
+    to="section1"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> -> </Link>
+
           </div>
         </div>
     </article>

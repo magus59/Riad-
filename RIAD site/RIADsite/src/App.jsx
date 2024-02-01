@@ -10,7 +10,7 @@ import gmailLogo from './assets/images/gmail.png';
 import facebookLogo from './assets/images/facebook.png';
 /**ajout par mohamed  */
 import Email from './assets/components/email/email';
-
+import Bigarticle from './assets/components/bigarticle/bigarticle';
 import Article from './assets/components/article/article';
 function App() {
   const logosArray = [inLogo, gmailLogo, facebookLogo];
@@ -19,8 +19,15 @@ function App() {
   
   const titreexperiences ='Notre expériences';
   const articleexperiences =`Lorem, ipsum dolor sit amet consectetur adipisicing.` ;
-  const linkDomaione ='' ;
-  const linkExpereiences ='' ;
+  const linkDomaine ='#domaine' ;
+  const linkExpereiences ='#experience' ;
+
+  const idbigexperience ='experience' ;
+  const contenubigexperience ='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus soluta aliquid quaerat veritatis debitis quos natus est voluptas voluptatum explicabo aperiam accusantium perferendis, itaque, officia eius ad cum illo distinctio consequatur accusamus doloremque ipsum iste. Quas ipsa obcaecati incidunt maiores eum maxime aut perferendis culpa soluta cumque! Molestias, temporibus eos? ' ;
+  const idbigdomaine ='domaine' ;
+  const contenubigdomaine ='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus soluta aliquid quaerat veritatis debitis quos natus est voluptas voluptatum explicabo aperiam accusantium perferendis, itaque, officia eius ad cum illo distinctio consequatur accusamus doloremque ipsum iste. Quas ipsa obcaecati incidunt maiores eum maxime aut perferendis culpa soluta cumque! Molestias, temporibus eos? ' ;
+  
+  
   return (
     <>
     <header>
@@ -30,8 +37,9 @@ function App() {
         <Head/>
         <Email email='son adresse email '/>
         <Article link={linkExpereiences} titre={titreexperiences} article={articleexperiences} />
-        <Article link={linkDomaione} titre={titredomaine} article={articledomaine} />
-   
+        <Article link={linkDomaine} titre={titredomaine} article={articledomaine} />
+        <Bigarticle id={idbigexperience} contenu={contenubigexperience} titre={titreexperiences}/>
+        <Bigarticle id={idbigdomaine} contenu={contenubigdomaine} titre={titredomaine}/>
      </main>
      <Footer logos={logosArray}/>
     </>
