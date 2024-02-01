@@ -8,7 +8,11 @@ const Article = (props) => {
           <h1>{props.titre}</h1>
         </div>
         <p className='para'>{props.article}</p>
-        
+        <div className='decoLink'>
+          <div className='positionLink'>
+            <a className='link' href={props.link}> -> </a>
+          </div>
+        </div>
     </article>
   )
 }

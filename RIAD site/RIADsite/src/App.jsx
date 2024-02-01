@@ -19,7 +19,8 @@ function App() {
   
   const titreexperiences ='Notre expériences';
   const articleexperiences =`Lorem, ipsum dolor sit amet consectetur adipisicing.` ;
-  
+  const linkDomaione ='' ;
+  const linkExpereiences ='' ;
   return (
     <>
     <header>
@@ -28,8 +29,8 @@ function App() {
      <main className='main'>
         <Head/>
         <Email email='son adresse email '/>
-        <Article titre={titreexperiences} article={articleexperiences} />
-        <Article titre={titredomaine} article={articledomaine} />
+        <Article link={linkExpereiences} titre={titreexperiences} article={articleexperiences} />
+        <Article link={linkDomaione} titre={titredomaine} article={articledomaine} />
    
      </main>
      <Footer logos={logosArray}/>
