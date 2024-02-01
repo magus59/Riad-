@@ -9,20 +9,23 @@ const Article = (props) => {
           <h1>{props.titre}</h1>
         </div>
         <p className='para'>{props.article}</p>
-        <div className='decoLink'>
-          <div className='positionLink'>
-          <Link
+        <Link
           className='link'
     activeClass="active"
-    to="section1"
+    to={props.linka}
     spy={true}
     smooth={true}
     offset={-70}
     duration={500}
-> -> </Link>
-
+>
+        <div className='decoLink'>
+          <div className='positionLink'>
+            ->
           </div>
         </div>
+ </Link>
+
+          
     </article>
   )
 }

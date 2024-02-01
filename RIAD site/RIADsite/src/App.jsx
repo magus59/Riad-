@@ -19,8 +19,8 @@ function App() {
   
   const titreexperiences ='Notre expériences';
   const articleexperiences =`Lorem, ipsum dolor sit amet consectetur adipisicing.` ;
-  const linkDomaine ='#domaine' ;
-  const linkExpereiences ='#experience' ;
+  const linkDomaine ='domaine' ;
+  const linkExperiences ='experience' ;
 
   const idbigexperience ='experience' ;
   const contenubigexperience ='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus soluta aliquid quaerat veritatis debitis quos natus est voluptas voluptatum explicabo aperiam accusantium perferendis, itaque, officia eius ad cum illo distinctio consequatur accusamus doloremque ipsum iste. Quas ipsa obcaecati incidunt maiores eum maxime aut perferendis culpa soluta cumque! Molestias, temporibus eos? ' ;
@@ -36,10 +36,10 @@ function App() {
      <main className='main'>
         <Head/>
         <Email email='son adresse email '/>
-        <Article link={linkExpereiences} titre={titreexperiences} article={articleexperiences} />
-        <Article link={linkDomaine} titre={titredomaine} article={articledomaine} />
-        <Bigarticle id={idbigexperience} contenu={contenubigexperience} titre={titreexperiences}/>
-        <Bigarticle id={idbigdomaine} contenu={contenubigdomaine} titre={titredomaine}/>
+        <Article linka={linkExperiences} titre={titreexperiences} article={articleexperiences} />
+        <Article linka={linkDomaine} titre={titredomaine} article={articledomaine} />
+        <Bigarticle ida={idbigexperience} contenu={contenubigexperience} titre={titreexperiences}/>
+        <Bigarticle ida={idbigdomaine} contenu={contenubigdomaine} titre={titredomaine}/>
      </main>
      <Footer logos={logosArray}/>
     </>
