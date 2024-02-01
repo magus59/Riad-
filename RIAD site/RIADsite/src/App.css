@@ -8,6 +8,7 @@ body{
   background-color: #d2b5b538;
   display: flex;
   justify-content: center;
+  font-family: Roboto;
 }
 
 main{

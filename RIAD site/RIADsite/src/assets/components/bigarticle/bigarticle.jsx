@@ -7,7 +7,7 @@ const Bigarticle = (props) => {
        <div className='deco'></div>
        <h1>{props.titre}</h1>
        </div>
-       <p> {props.contenu}</p>
+       <p className='para'> {props.contenu}</p>
     </article>
   )
 }
