@@ -20,7 +20,7 @@ const Article = (props) => {
 >
         <div className='decoLink'>
           <div className='positionLink'>
-            ->
+            ➜
           </div>
         </div>
  </Link>

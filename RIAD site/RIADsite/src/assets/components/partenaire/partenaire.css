@@ -1,0 +1,12 @@
+#partenaireh1{
+    margin-left: 20px;
+}
+.containaireImage{
+    display:flex;
+    justify-content: center;
+}
+.imagePartenaire{
+    width:60px;
+    height:60px;
+    margin-left: 10px;
+}

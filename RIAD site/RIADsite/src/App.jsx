@@ -12,6 +12,7 @@ import facebookLogo from './assets/images/facebook.png';
 import Email from './assets/components/email/email';
 import Bigarticle from './assets/components/bigarticle/bigarticle';
 import Article from './assets/components/article/article';
+import Partenaire from './assets/components/partenaire/partenaire';
 function App() {
   const logosArray = [inLogo, gmailLogo, facebookLogo];
   const titredomaine ='Domaines d\'intervention';
@@ -36,6 +37,7 @@ function App() {
      <main className='main'>
         <Head/>
         <Email email='son adresse email '/>
+        <Partenaire/>
         <Article linka={linkExperiences} titre={titreexperiences} article={articleexperiences} />
         <Article linka={linkDomaine} titre={titredomaine} article={articledomaine} />
         <Bigarticle ida={idbigexperience} contenu={contenubigexperience} titre={titreexperiences}/>
