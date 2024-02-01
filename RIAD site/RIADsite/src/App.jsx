@@ -10,12 +10,16 @@ import gmailLogo from './assets/images/gmail.png';
 import facebookLogo from './assets/images/facebook.png';
 /**ajout par mohamed  */
 import Email from './assets/components/email/email';
-import Experiences from './assets/components/experiences/experiences';
-import Domaines from './assets/components/domaines/domaines';
-import Icon from './components/icon/icon';
+
+import Article from './assets/components/article/article';
 function App() {
   const logosArray = [inLogo, gmailLogo, facebookLogo];
-
+  const titredomaine ='Domaines d\'intervention';
+  const articledomaine =`Lorem, ipsum dolor sit amet consectetur adipisicing.` ;
+  
+  const titreexperiences ='Notre expériences';
+  const articleexperiences =`Lorem, ipsum dolor sit amet consectetur adipisicing.` ;
+  
   return (
     <>
     <header>
@@ -24,9 +28,9 @@ function App() {
      <main className='main'>
         <Head/>
         <Email email='son adresse email '/>
-        <Experiences/>
-        <Domaines />
-        <Icon/>
+        <Article titre={titreexperiences} article={articleexperiences} />
+        <Article titre={titredomaine} article={articledomaine} />
+   
      </main>
      <Footer logos={logosArray}/>
     </>
