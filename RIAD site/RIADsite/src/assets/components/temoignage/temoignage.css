@@ -1,6 +1,7 @@
 .articleTemoignage{
  background-color: rgb(219, 16, 46);
  color:white;
+ padding: 10px;
 }
 
 
@@ -11,18 +12,20 @@
     margin: 10px;
 }
 
-.h1temoignage{
-    margin-left: 10px;
-}
+
 .temoignage{
     display:flex;
     align-items:start ;
 }
 
 .pTemoignage{
+    margin-top:0px;
     margin-left: 10px ;
     margin-right: 10px;
+    text-align: justify;
 }
 .h2Temoin{
-    margin: 0px;
+    margin-left : 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }

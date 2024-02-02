@@ -3,7 +3,7 @@ import './temoignage.css'
 const Temoignage = (props) => {
   return (
     <article className='articleTemoignage'>
-        <h1 className='h1temoignage'>Temoignage</h1>
+        
         <div className='temoignage'>
             <img  className='image' src={props.image} alt="" />
         <div>
