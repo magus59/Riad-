@@ -1,0 +1,28 @@
+.articleTemoignage{
+ background-color: rgb(219, 16, 46);
+ color:white;
+}
+
+
+.image{
+    width:80px;
+    height:80px;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.h1temoignage{
+    margin-left: 10px;
+}
+.temoignage{
+    display:flex;
+    align-items:start ;
+}
+
+.pTemoignage{
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+.h2Temoin{
+    margin: 0px;
+}

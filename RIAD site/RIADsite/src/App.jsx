@@ -13,6 +13,8 @@ import Email from './assets/components/email/email';
 import Bigarticle from './assets/components/bigarticle/bigarticle';
 import Article from './assets/components/article/article';
 import Partenaire from './assets/components/partenaire/partenaire';
+import Temoignage from './assets/components/temoignage/temoignage';
+import temoin from '../src/assets/images/electric-4198293_1280.jpg'
 function App() {
   const logosArray = [inLogo, gmailLogo, facebookLogo];
   const titredomaine ='Domaines d\'intervention';
@@ -27,8 +29,9 @@ function App() {
   const contenubigexperience ='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus soluta aliquid quaerat veritatis debitis quos natus est voluptas voluptatum explicabo aperiam accusantium perferendis, itaque, officia eius ad cum illo distinctio consequatur accusamus doloremque ipsum iste. Quas ipsa obcaecati incidunt maiores eum maxime aut perferendis culpa soluta cumque! Molestias, temporibus eos? ' ;
   const idbigdomaine ='domaine' ;
   const contenubigdomaine ='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus soluta aliquid quaerat veritatis debitis quos natus est voluptas voluptatum explicabo aperiam accusantium perferendis, itaque, officia eius ad cum illo distinctio consequatur accusamus doloremque ipsum iste. Quas ipsa obcaecati incidunt maiores eum maxime aut perferendis culpa soluta cumque! Molestias, temporibus eos? ' ;
-  
-  
+  const temoignage1 ='Lorem ipsum dolor, sit amet consectetur adipisicing.' ;
+  const personne1 = temoin ;
+  const prenomTemoin1 = 'prenom';
   return (
     <>
     <header>
@@ -41,9 +44,12 @@ function App() {
         <Partenaire/>
         <Article linka={linkExperiences} titre={titreexperiences} article={articleexperiences} />
         <Article linka={linkDomaine} titre={titredomaine} article={articledomaine} />
+        
+        <Temoignage prenom={prenomTemoin1} image={personne1} contenu={temoignage1}/>
+   
         <Bigarticle ida={idbigexperience} contenu={contenubigexperience} titre={titreexperiences}/>
         <Bigarticle ida={idbigdomaine} contenu={contenubigdomaine} titre={titredomaine}/>
-     </main>
+          </main>
      <Footer logos={logosArray}/>
     </>
   )
